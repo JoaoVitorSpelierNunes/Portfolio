@@ -1,0 +1,102 @@
+/* Cabeçalho */
+
+body {
+    margin: 0;
+}
+
+.container {
+    line-height: 150%;
+}
+
+.header {
+    background-color: gray;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .social a {
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+/* Menu lateral */
+
+.left{
+    float: left;
+    width: 180px;
+    margin: 0;
+    padding: 1em;
+}
+
+ul{
+    list-style-type: none;
+    /* border-left: 1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active{
+    background-color: blue;
+    color: white;
+}
+
+li a:hover:not(:active){
+    background-color: blue;
+    color: white;
+}
+
+/* Conteúdo principal */
+
+.content {
+    margin-left: 200px;
+    border-left: 2px solid gray;
+    padding: 1em;
+}
+
+/* Tabela */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+tr:nth-child(1) {
+    background-color: blue;
+    color: white;
+}
+
+tr td i.fa-brands {
+    text-align: center;
+    display: block;
+    font-size: 35px;
+}
+
+/* Rodapé */
+
+.footer {
+    background-color:  gray;
+    padding: 55px 20px;
+    text-align: center;
+    color: white;
+}
